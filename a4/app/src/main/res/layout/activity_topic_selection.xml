@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/welcome_user"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="27dp"
+        android:gravity="center"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/welcome_user"
+        android:layout_alignBottom="@+id/welcome_user"
+        android:layout_alignTop="@id/welcome_user"
+        android:layout_alignStart="@+id/load"
+        android:onClick="logout"
+        android:text="Logout" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignStart="@+id/welcome_user"
+        android:layout_below="@+id/welcome_user"
+        android:layout_marginTop="46dp"
+        android:text="Topic"
+        android:gravity="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_above="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="# of Questions"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="10dp"
+        android:layout_toStartOf="@+id/qnum_selector"
+        android:gravity="center_vertical"
+        android:text="World Flag"/>
+
+    <Button
+        android:id="@+id/load"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/qnum_selector"
+        android:layout_marginStart="17dp"
+        android:layout_toEndOf="@+id/qnum_selector"
+        android:onClick="load"
+        android:text="Load" />
+
+    <Spinner
+        android:id="@+id/qnum_selector"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_alignEnd="@id/textView6"
+        android:layout_alignTop="@+id/textView5" />
+</RelativeLayout>

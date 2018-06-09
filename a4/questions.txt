@@ -1,0 +1,9 @@
+Use the following questions for the assignment 4. Field descriptions are as follows:
+
+Question No,Question Type (i.e., single answer or multiple answer), Question, Option One, Option Two, Option Three, Option Four, Correct Answer
+
+1,Single,Select the country that has this flag,Canada,Taiwan,China ,Peru,A
+2,Multiple,Select the countries that have these flags,Brazil,Ivory Coast,Argentina,Luxembourg,AC
+3,Single,Select the country that has this flag,Netherlands,Taiwan,China,Slovakia,C
+4,Single,Select the country that has this flag,Canada,India,Brazil,South Korea,D
+5,Multiple,Select the countries that have these flags,Canada,Taiwan,South Africa,United Kingdom,CD
